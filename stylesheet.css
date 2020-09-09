@@ -1,0 +1,156 @@
+body {
+    font-family: arial,sans-serif;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+}
+
+nav {
+    font-size: 13px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#gmail {
+    margin-top: 8px;
+    margin: 5px;
+    padding: 5px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+#images {
+    margin-top: 8px;
+    margin: 5px;
+    padding: 5px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.fas {
+    margin: 5px;
+    padding: 8px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#signin {
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    margin-top: 8px;
+    margin-left: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: bolder;
+    margin-right: 20px;
+    height: 30px
+}
+
+img {
+    align-items: center;
+    width: 280px;
+}
+
+#center {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#search-bar {
+    border-radius: 30%;
+}
+
+#search {
+    color: rgb(102, 102, 102);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6%;
+    margin: 5px;
+}
+
+#lucky {
+    color: rgb(102, 102, 102);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6%;
+    margin: 5px;
+}
+
+button {
+    border:none
+}
+
+button:hover {
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+#search:hover{
+    color:black;
+}
+
+#lucky:hover {
+    color:black;
+}
+
+#offer {
+    font-size: 13px;
+}
+
+#deutch {
+    text-decoration: none;
+    color: rgb(33, 33, 180);
+}
+
+#austria {
+    background-color: rgb(238, 238, 238);
+    color: rgb(102, 102, 102);
+    display: flex;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    border:solid;
+    border-color: rgb(173, 173, 173);
+    border-width: 0.2px;
+    padding: 10px;
+    padding-left: 24px;
+}
+
+footer{
+    background-color: rgb(238, 238, 238);
+    color: rgb(102, 102, 102);
+    display: flex;
+    font-size: 15px;
+    font-weight: lighter;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#footer-left {
+    /* justify-content: left; */
+    text-align: left;
+    padding: 5px;
+}
+
+.f-l {
+    padding: 10px;
+}
+
+#footer-right {
+    /* justify-content: right; */
+    text-align: right;
+}
+
+.f-r {
+    padding: 10px;
+}
